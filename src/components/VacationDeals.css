@@ -1,0 +1,92 @@
+.filter-links {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filter-link.active {
+    background-color: #FA7436;
+    color: white;
+  }
+  
+  .card-rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-price {
+    font-size: 18px;
+  }
+  
+
+  @media (max-width: 1199.98px) {
+    .filter-links {
+      gap: 10px;
+    }
+  }
+  
+  @media (max-width: 991.98px) {
+    .filter-links {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+    
+    .filter-link {
+      flex-basis: 20%;
+      margin-bottom: 10px;
+    }
+  }
+  
+  @media (max-width: 767.98px) {
+    .filter-link {
+      flex-basis: 25%;
+    }
+  }
+
+  .card-title {
+    font-size: 14px; 
+    color: #FA7436;
+    
+  }
+  
+  .card-title .svg-inline--fa {
+    font-size: 12px; 
+    padding-right: 10px;
+  }
+  
+  .card-address {
+    font-weight: bold; 
+    color: black; 
+  }
+
+  .tes {
+    font-size: 12px;
+  }
+  
+  .text-warning {
+    padding-right: 10px;
+  }
+
+  .anderes{
+    font-weight: bold; 
+  }
+
+  .deskrip{
+    color: #999999;
+   
+  }
+
+  .moredis {
+    color: #999999;
+    text-decoration: none;
+  }

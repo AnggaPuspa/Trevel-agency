@@ -1,0 +1,108 @@
+h5 {
+    text-align: justify;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+
+.why-choose-us .text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .why-choose-us {
+    padding-top: 100px;
+  }
+  
+  .why-choose-us .text-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .why-choose-us .text-section .lead {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .why-choose-us .btn-learn-more {
+    max-width: 150px;
+    border-radius: 10px !important;
+    color: #FA7436 !important;
+    border-color: #FA7436 !important;
+    background: none;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
+  
+  .why-choose-us .btn-learn-more:hover {
+    background-color: #FA7436 !important; 
+    color: white !important; 
+    border-color: #FA7436 !important;
+  }
+  
+  .why-choose-us .cards-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .why-choose-us .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    position: relative;
+    padding-right: 15px; 
+  }
+  
+  .why-choose-us .card-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+  }
+  
+  .why-choose-us .card-content {
+    text-align: center;
+  }
+  
+  .why-choose-us .card-content h5 {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .why-choose-us .card-content p {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #666;
+  }
+  
+  .why-choose-us .vertical-line {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background-color: #ddd;
+    height: 100%;
+  }
+  
+ 
+  @media (max-width: 767.98px) {
+    .why-choose-us .cards-section {
+      flex-direction: column;
+      padding-top: 10px;
+    }
+    .why-choose-us .card-container {
+      margin-bottom: 20px;
+      padding-right: 0; 
+    }
+    .why-choose-us .vertical-line {
+      display: none; 
+    }
+  }
+  

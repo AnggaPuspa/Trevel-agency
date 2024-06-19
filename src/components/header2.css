@@ -1,0 +1,48 @@
+.header-photo {
+    background-color: #f8f9fa; 
+    padding: 20px 0;
+  }
+  
+  .follow-us {
+    text-align: center;
+    color: #FA7436; 
+  }
+  
+  .follow-text {
+    font-size: 14px; 
+    writing-mode: vertical-lr; 
+    text-orientation: upright; 
+    margin-bottom: 10px;
+  }
+  
+  .follow-line {
+    width: 2px; 
+    height: 50px; 
+    background-color: #FA7436; 
+    margin: 0 auto 10px; 
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-icon {
+    color: #FA7436; 
+    font-size: 14px; 
+    margin: 10px 0; 
+    text-decoration: none; 
+  }
+  
+  .social-icon:hover {
+    color: #E54C07; 
+  }
+  
+ 
+  @media (max-width: 991.98px) {
+    .follow-us {
+      display: none; 
+    }
+  }
+  

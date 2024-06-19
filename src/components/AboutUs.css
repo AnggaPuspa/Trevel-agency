@@ -1,0 +1,77 @@
+.about-us-section {
+    background-color: #F7F8FC!important; 
+    padding: 60px 0;
+  }
+  
+  .about-title {
+    color: #FA7436 !important; 
+    font-size: 24px; 
+    font-weight: bold; 
+  }
+  
+  .about-description {
+    font-size: 16px; 
+    line-height: 1.8; 
+  }
+  
+  .about-image-container {
+    width: 100% !important; 
+    max-width: 600px; 
+    height: 450px;
+    overflow: hidden; 
+  }
+  
+  .about-image {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+  
+  .about-content {
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .about-stats {
+    margin-top: 30px; 
+    
+  }
+  
+  .about-stats .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+  }
+  
+  .about-stats .col-md-4 {
+    text-align: center; 
+    flex: 1; 
+    margin-bottom: 20px; 
+  }
+  
+  .about-stats h4 {
+    font-size: 28px; 
+  }
+  
+  .about-stats p {
+    font-size: 14px; 
+  }
+  
+  .discover-btn  {
+    max-width: 150px;
+  
+  }
+
+  .text-primary{
+    color: #FA7436 !important;
+    justify-content: left !important;
+   
+  }
+
+
+
+
+
+  

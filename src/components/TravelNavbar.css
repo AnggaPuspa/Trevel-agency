@@ -1,0 +1,15 @@
+.navbar-phone {
+  color: #FA7436 !important; 
+}
+
+.navbar-nav .nav-link {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 16px;
+  color: #000; 
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #FA7436; 
+}

@@ -1,0 +1,63 @@
+.display-2 {
+    font-size: 3rem;
+    line-height: 1.2; 
+  }
+  
+  .lead {
+    font-size: 1.5rem; 
+    line-height: 1.6; 
+  }
+  
+  .discover-btn {
+    color: #fff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    font-weight: bold; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  .discover-btn.bg-FA7436 {
+    background-color: #FA7436; 
+  }
+  
+  .discover-btn:hover {
+    background-color: #E54C07;
+    text-decoration: none; 
+  }
+  
+  .follow-us {
+    color: #FA7436; 
+  }
+  
+  .follow-title {
+    font-size: 1.2rem; 
+    font-weight: bold;
+  }
+  
+  .follow-divider {
+    width: 50px;
+    border-top: 2px solid #FA7436;
+    margin: 10px auto;
+  }
+  
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-icon {
+    color: #FA7436;
+    margin: 5px 0;
+  }
+  
+  .social-icon:hover {
+    color: #E54C07;
+  }
+  
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  
